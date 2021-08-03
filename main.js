@@ -12,6 +12,7 @@ const exercise1 = (phrase) => {
   console.log(result);
   return result;
 }
+
 // Ex 2. Text Manipulation and Arrays
 const exercise2 = (word) => {
   console.log('Exercise 2');
@@ -29,6 +30,7 @@ const exercise2 = (word) => {
   console.log(`Input wasn't in all caps or all lower. Take back your word: ${word}`);
   return `Input wasn't in all caps or all lower. Take back your word: ${word}`
 }
+
 // Ex 3a. Return first n number of elements
 const first = (arr,num) => {
   console.log(arr.slice(0, num));
@@ -45,6 +47,7 @@ const exercise3 = () => {
   first([2,3,9,7,4,5],3);
   last([2,3,9,7,4,5],4);
 }
+
 // Ex 4. Remove element with specific value from array
 const exercise4 = (arr,unwanted) => {
   console.log('Exercise 4');
@@ -85,7 +88,6 @@ const exercise5 = () => {
     console.log(`Color of pet: ${pet.color}`)
     console.log("=============================");
   }
-
 }
 
 const main = () => {
